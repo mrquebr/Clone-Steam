@@ -1,0 +1,33 @@
+
+header{
+    background-color: #1e2b3b;
+    height: 50px;
+}
+body {
+    background-color: #171d25;
+}
+footer{
+    background-color: #1e2b3b;
+    height: 50px;
+    text-align: center;
+}
+header{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+h3,p{
+    display: flex;
+    justify-content:flex-end;
+    color: #fff;
+}
+.teladcima {
+    transition: transform (1.02s);
+    margin-left: 12px;
+}
+
+.teladcima:hover{
+    transform: scale(1.05s);
+color: rgb(240, 240, 255);
+}
